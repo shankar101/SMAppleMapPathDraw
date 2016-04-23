@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		900104681CBF951F00DF7CF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 900104671CBF951F00DF7CF6 /* main.m */; };
 		9001046B1CBF951F00DF7CF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001046A1CBF951F00DF7CF6 /* AppDelegate.m */; };
-		9001046E1CBF951F00DF7CF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001046D1CBF951F00DF7CF6 /* ViewController.m */; };
 		900104711CBF951F00DF7CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9001046F1CBF951F00DF7CF6 /* Main.storyboard */; };
 		900104741CBF951F00DF7CF6 /* SMGooglePathDraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900104721CBF951F00DF7CF6 /* SMGooglePathDraw.xcdatamodeld */; };
 		900104761CBF951F00DF7CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900104751CBF951F00DF7CF6 /* Assets.xcassets */; };
 		900104791CBF951F00DF7CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900104771CBF951F00DF7CF6 /* LaunchScreen.storyboard */; };
 		900104841CBF952000DF7CF6 /* SMGooglePathDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 900104831CBF952000DF7CF6 /* SMGooglePathDrawTests.m */; };
 		9001048F1CBF952000DF7CF6 /* SMGooglePathDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001048E1CBF952000DF7CF6 /* SMGooglePathDrawUITests.m */; };
+		90E87A031CC285D2002D1CA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E87A021CC285D2002D1CA9 /* MapKit.framework */; };
+		90E87A091CC28C28002D1CA9 /* ZSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E87A061CC28C28002D1CA9 /* ZSAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		90E87A0E1CC28DF1002D1CA9 /* ZSPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E87A0D1CC28DF1002D1CA9 /* ZSPinAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		90E87A101CC28F41002D1CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E87A0F1CC28F41002D1CA9 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		900104671CBF951F00DF7CF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		900104691CBF951F00DF7CF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9001046A1CBF951F00DF7CF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9001046C1CBF951F00DF7CF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9001046D1CBF951F00DF7CF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		900104701CBF951F00DF7CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		900104731CBF951F00DF7CF6 /* SMGooglePathDraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMGooglePathDraw.xcdatamodel; sourceTree = "<group>"; };
 		900104751CBF951F00DF7CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,13 @@
 		9001048A1CBF952000DF7CF6 /* SMGooglePathDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMGooglePathDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9001048E1CBF952000DF7CF6 /* SMGooglePathDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMGooglePathDrawUITests.m; sourceTree = "<group>"; };
 		900104901CBF952000DF7CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E87A021CC285D2002D1CA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90E87A051CC28C28002D1CA9 /* ZSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnnotation.h; sourceTree = "<group>"; };
+		90E87A061CC28C28002D1CA9 /* ZSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAnnotation.m; sourceTree = "<group>"; };
+		90E87A0C1CC28DF1002D1CA9 /* ZSPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSPinAnnotation.h; sourceTree = "<group>"; };
+		90E87A0D1CC28DF1002D1CA9 /* ZSPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSPinAnnotation.m; sourceTree = "<group>"; };
+		90E87A0F1CC28F41002D1CA9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SMGooglePathDraw/ViewController.m; sourceTree = SOURCE_ROOT; };
+		90E87A111CC28F4A002D1CA9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SMGooglePathDraw/ViewController.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E87A031CC285D2002D1CA9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 		9001045A1CBF951F00DF7CF6 = {
 			isa = PBXGroup;
 			children = (
+				90E87A021CC285D2002D1CA9 /* MapKit.framework */,
 				900104651CBF951F00DF7CF6 /* SMGooglePathDraw */,
 				900104821CBF952000DF7CF6 /* SMGooglePathDrawTests */,
 				9001048D1CBF952000DF7CF6 /* SMGooglePathDrawUITests */,
@@ -103,10 +113,11 @@
 		900104651CBF951F00DF7CF6 /* SMGooglePathDraw */ = {
 			isa = PBXGroup;
 			children = (
+				90E87A041CC28C28002D1CA9 /* MapAnnotationPoint */,
+				90E87A111CC28F4A002D1CA9 /* ViewController.h */,
+				90E87A0F1CC28F41002D1CA9 /* ViewController.m */,
 				900104691CBF951F00DF7CF6 /* AppDelegate.h */,
 				9001046A1CBF951F00DF7CF6 /* AppDelegate.m */,
-				9001046C1CBF951F00DF7CF6 /* ViewController.h */,
-				9001046D1CBF951F00DF7CF6 /* ViewController.m */,
 				9001046F1CBF951F00DF7CF6 /* Main.storyboard */,
 				900104751CBF951F00DF7CF6 /* Assets.xcassets */,
 				900104771CBF951F00DF7CF6 /* LaunchScreen.storyboard */,
@@ -141,6 +152,25 @@
 				900104901CBF952000DF7CF6 /* Info.plist */,
 			);
 			path = SMGooglePathDrawUITests;
+			sourceTree = "<group>";
+		};
+		90E87A041CC28C28002D1CA9 /* MapAnnotationPoint */ = {
+			isa = PBXGroup;
+			children = (
+				90E87A0B1CC28DF1002D1CA9 /* src */,
+				90E87A051CC28C28002D1CA9 /* ZSAnnotation.h */,
+				90E87A061CC28C28002D1CA9 /* ZSAnnotation.m */,
+			);
+			path = MapAnnotationPoint;
+			sourceTree = "<group>";
+		};
+		90E87A0B1CC28DF1002D1CA9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				90E87A0C1CC28DF1002D1CA9 /* ZSPinAnnotation.h */,
+				90E87A0D1CC28DF1002D1CA9 /* ZSPinAnnotation.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9001046E1CBF951F00DF7CF6 /* ViewController.m in Sources */,
+				90E87A101CC28F41002D1CA9 /* ViewController.m in Sources */,
 				900104741CBF951F00DF7CF6 /* SMGooglePathDraw.xcdatamodeld in Sources */,
 				9001046B1CBF951F00DF7CF6 /* AppDelegate.m in Sources */,
+				90E87A0E1CC28DF1002D1CA9 /* ZSPinAnnotation.m in Sources */,
 				900104681CBF951F00DF7CF6 /* main.m in Sources */,
+				90E87A091CC28C28002D1CA9 /* ZSAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMGooglePathDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMGooglePathDraw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SMGooglePathDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMGooglePathDraw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +534,7 @@
 				900104951CBF952000DF7CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		900104961CBF952000DF7CF6 /* Build configuration list for PBXNativeTarget "SMGooglePathDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +543,7 @@
 				900104981CBF952000DF7CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		900104991CBF952000DF7CF6 /* Build configuration list for PBXNativeTarget "SMGooglePathDrawUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +552,7 @@
 				9001049B1CBF952000DF7CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
