@@ -41,6 +41,9 @@
     if(self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier]) {
         
         // Defaults
+        if (reuseIdentifier==nil) {
+            return self;
+        }
         self.annotationColor = [UIColor redColor];
         self.annotationType = ZSPinAnnotationTypeStandard;
 
